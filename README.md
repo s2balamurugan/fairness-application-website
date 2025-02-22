@@ -21,6 +21,7 @@ The model optimizes three loss functions:
 3. Decoder loss ensures Y_pred remains an accurate and fair prediction of Y.
 
 Overall, this adversarial learning approach guarantees fair and accurate predictions by systematically removing biased dependencies while retaining necessary information.
+
 <img width="195" alt="Screen Shot 2025-02-22 at 12 36 38 PM" src="https://github.com/user-attachments/assets/689d4adc-11ef-413c-a99f-008e6a58f28b" />
 
 
