@@ -22,16 +22,19 @@ The model optimizes three loss functions:
 
 Overall, this adversarial learning approach guarantees fair and accurate predictions by systematically removing biased dependencies while retaining necessary information.
 
+### Datasets Implemented 
+We implemented three datasets, UCI Adult, German Credit and COMPAS dataset. 
+
+The UCI Adult dataset is derived from the U.S. Census Bureau, it predicts whether an individual earns more than $50,000 annually based on factors like age, education, occupation, and work hours. Due to its reflection of real-world income inequalities, it is widely used in fairness and bias research as a benchmark for classification models.
+
+The German Credit dataset is provided by the UCI Machine Learning Repository, it assesses credit risk by categorizing applicants as “good” or “bad” credit risks. It includes features like work status, financial history, home situation, and personal demographics (age, sex, etc.). The dataset is crucial in evaluating bias in financial decision-making and credit scoring models.
+
+The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reoffending probability) using features such as age, sex, race, past crimes, and COMPAS risk scores. Research has shown racial disparities in risk assessment, making it central to discussions on algorithmic fairness and bias in the criminal justice system.
+
 ## Results
 
 ## Conclusion
 
 
-
-## Key Research Papers 
-In order to investigate fairness in machine learning models, we were inspired by the paper in Group Fairness by Probabilistic Modeling with Latent Fair Decisions by YooJung Choi, Meihua Dang, and Guy Van den Broeck Choi, Dang and den Broeck (2020). This paper addresses the issue of bias in machine learning models, which often discriminate against specific demographic groups due to biased training data. To mitigate this, the authors introduce a latent variable, Df, representing true, unbiased decisions independent of sensitive attributes S. The proposed approach employs a probabilistic model that captures the relationships among fair decisions (Df), biased observed labels (D), sensitive attributes (S), and other non-sensitive features (X). This modeling is achieved using probabilistic circuits (PCs), a type of graphical model that efficiently represents joint probability distributions while enabling tractable inference.
-
-## Objectives
-1. 
 
 
