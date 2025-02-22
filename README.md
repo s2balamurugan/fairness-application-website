@@ -50,6 +50,7 @@ In the future we will focus on enhancing the model’s adaptability to more comp
 
 ## Refrences
 Choi, YooJung, Meihua Dang, and Guy Van den Broeck. 2020. “Group Fairness by Probabilistic Modeling with Latent Fair Decisions.” https://arxiv.org/abs/2009.09031 
+
 Prashant, Parjanya, Seyedeh Baharan Khatami, Bruno Ribeiro, and Babak Salimi.2024. “Scalable Out-of-distribution Robustness in the Presence of Unobserved Con-
 founders.” https://arxiv.org/abs/2411.19923 
 
