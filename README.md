@@ -16,11 +16,13 @@ The model consists of three main components:
 3. Decoder: Predicts Y using both pseudo_Y and S, ensuring that only fair dependencies on S are retained for accurate and unbiased predictions.
 
 The model optimizes three loss functions:
-1. Classification loss (Binary/Categorical Cross-Entropy) ensures pseudo_Y aligns with Y.
+1. Classification loss ensures pseudo_Y aligns with Y.
 2. Adversarial loss forces pseudo_Y to be independent of S by minimizing adversary accuracy.
 3. Decoder loss ensures Y_pred remains an accurate and fair prediction of Y.
 
 Overall, this adversarial learning approach guarantees fair and accurate predictions by systematically removing biased dependencies while retaining necessary information.
+<img width="195" alt="Screen Shot 2025-02-22 at 12 36 38 PM" src="https://github.com/user-attachments/assets/689d4adc-11ef-413c-a99f-008e6a58f28b" />
+
 
 ### Datasets Implemented 
 We implemented three datasets, UCI Adult, German Credit and COMPAS dataset. 
@@ -32,6 +34,7 @@ The German Credit dataset is provided by the UCI Machine Learning Repository, it
 The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reoffending probability) using features such as age, sex, race, past crimes, and COMPAS risk scores. Research has shown racial disparities in risk assessment, making it central to discussions on algorithmic fairness and bias in the criminal justice system.
 
 ## Results
+
 
 ## Conclusion
 Our work focuses on developing a fairness-aware algorithm that discovers latent variables to mitigate biases in predictive models. By leveraging an encoder-decoder framework with adversarial biasing, we ensure that sensitive attributes do not unfairly influence predictions while preserving meaningful patterns in the data. Our approach is evaluated on well-established fairness datasets, demonstrating its ability to produce fair and unbiased labels. As data-driven decision-making continues to shape critical domains like healthcare and criminal justice, our method provides a robust solution for addressing structural biases and enhancing the trustworthiness of AI systems.
