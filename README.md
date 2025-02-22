@@ -34,6 +34,12 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
 ## Results
 
 ## Conclusion
+Our work focuses on developing a fairness-aware algorithm that discovers latent variables to mitigate biases in predictive models. By leveraging an encoder-decoder framework with adversarial biasing, we ensure that sensitive attributes do not unfairly influence predictions while preserving meaningful patterns in the data. Our approach is evaluated on well-established fairness datasets, demonstrating its ability to produce fair and unbiased labels. As data-driven decision-making continues to shape critical domains like healthcare and criminal justice, our method provides a robust solution for addressing structural biases and enhancing the trustworthiness of AI systems.
+
+In the future we will focus on enhancing the model’s adaptability to more complex scenarios. This includes improving its performance when the sensitive feature is non-binary, ensuring it remains effective across diverse demographic groups. Additionally, we aim to extend the model’s capability to handle multi-class observed labels, making it applicable to a broader range of classification tasks. Finally, we will establish clear guidelines for determining when to prioritize accuracy over independence and vice versa, helping users make informed decisions based on their specific fairness and performance requirements.
+
+
+
 
 
 
