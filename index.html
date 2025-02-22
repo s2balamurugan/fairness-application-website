@@ -1,29 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Capstone Project</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>My Capstone Project</h1>
-    </header>
-    <section>
-        <h2>Introduction</h2>
-        <p>Brief description of your project...</p>
-    </section>
-    <section>
-        <h2>Data & Methods</h2>
-        <p>Explain your approach...</p>
-    </section>
-    <section>
-        <h2>Results</h2>
-        <p>Showcase findings with graphs/images.</p>
-    </section>
-    <footer>
-        <p>&copy; 2025 Your Name</p>
-    </footer>
-</body>
-</html>
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
