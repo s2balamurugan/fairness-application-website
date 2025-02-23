@@ -49,7 +49,8 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
 <style>
   table {
     border-collapse: collapse;
-    width: 100%;
+    width: auto;
+    margin: 0 auto;
   }
   th, td {
     border: 1px solid #ddd;
@@ -90,10 +91,30 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
   <img width="634" alt="Screen Shot 2025-02-22 at 8 04 20 PM" src="https://github.com/user-attachments/assets/1ae6bbe7-7bdc-4a12-b15b-600ddec62bf5" />
 
   
-  |  | Demographic Parity Difference | AUC | Accuracy |
-  |----------|----------|----------|----------|
-  | Baseline | 0.046   | 0.663  | 0.72 |
-  | Fair Model | 0.026   | 0.524   | 0.71 |
+ <table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Demographic Parity Difference</th>
+      <th>AUC</th>
+      <th>Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Baseline</td>
+      <td>0.046</td>
+      <td>0.663</td>
+      <td>0.72</td>
+    </tr>
+    <tr>
+      <td>Fair Model</td>
+      <td>0.026</td>
+      <td>0.524</td>
+      <td>0.71</td>
+    </tr>
+  </tbody>
+</table>
   
   
   
@@ -101,10 +122,30 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
   <img width="635" alt="Screen Shot 2025-02-22 at 8 05 04 PM" src="https://github.com/user-attachments/assets/e4e39e4d-97a6-4484-9e08-04adf8472200" />
 
   
-  |  | Demographic Parity Difference | AUC | Accuracy |
-  |----------|----------|----------|----------|
-  | Baseline | 0.227   | 0.737  | 0.699 |
-  | Fair Model | 0.122   | 0.738   | 0.653 |
+ <table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Demographic Parity Difference</th>
+      <th>AUC</th>
+      <th>Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Baseline</td>
+      <td>0.227</td>
+      <td>0.737</td>
+      <td>0.699</td>
+    </tr>
+    <tr>
+      <td>Fair Model</td>
+      <td>0.122</td>
+      <td>0.738</td>
+      <td>0.653</td>
+    </tr>
+  </tbody>
+</table>
 </p>
 
 
