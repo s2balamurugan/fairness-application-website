@@ -42,32 +42,37 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
 
 ## Results
 
-UCI Adults Dataset Fairness Metrics
-<img width="635" alt="Screen Shot 2025-02-22 at 8 03 37 PM" src="https://github.com/user-attachments/assets/dc47f4ec-bd4c-45a4-bdfc-225b7f00720c" />
+<p align="center">
+  **UCI Adults Dataset Fairness Metrics**
+  <img width="635" alt="Screen Shot 2025-02-22 at 8 03 37 PM" src="https://github.com/user-attachments/assets/dc47f4ec-bd4c-45a4-bdfc-225b7f00720c" />
+  
+  |  | Demographic Parity Difference | AUC | Accuracy |
+  |----------|----------|----------|----------|
+  | Baseline | 0.0764   | 0.806  | 0.788 |
+  | Fair Model | 0.071   | 0.798   | 0.798 |
+  
+  
+  
+  **German Credit Scores Dataset Fairness Metrics**
+  <img width="634" alt="Screen Shot 2025-02-22 at 8 04 20 PM" src="https://github.com/user-attachments/assets/1ae6bbe7-7bdc-4a12-b15b-600ddec62bf5" />
 
-|  | Demographic Parity Difference | AUC | Accuracy |
-|----------|----------|----------|----------|
-| Baseline | 0.0764   | 0.806  | 0.788 |
-| Fair Model | 0.071   | 0.798   | 0.798 |
+  
+  |  | Demographic Parity Difference | AUC | Accuracy |
+  |----------|----------|----------|----------|
+  | Baseline | 0.046   | 0.663  | 0.72 |
+  | Fair Model | 0.026   | 0.524   | 0.71 |
+  
+  
+  
+  **COMPAS Dataset Fairness Metrics**
+  <img width="635" alt="Screen Shot 2025-02-22 at 8 05 04 PM" src="https://github.com/user-attachments/assets/e4e39e4d-97a6-4484-9e08-04adf8472200" />
 
-
-German Credit Scores Dataset Fairness Metrics
-<img width="634" alt="Screen Shot 2025-02-22 at 8 04 20 PM" src="https://github.com/user-attachments/assets/1ae6bbe7-7bdc-4a12-b15b-600ddec62bf5" />
-
-|  | Demographic Parity Difference | AUC | Accuracy |
-|----------|----------|----------|----------|
-| Baseline | 0.046   | 0.663  | 0.72 |
-| Fair Model | 0.026   | 0.524   | 0.71 |
-
-
-COMPAS Dataset Fairness Metrics
-<img width="635" alt="Screen Shot 2025-02-22 at 8 05 04 PM" src="https://github.com/user-attachments/assets/e4e39e4d-97a6-4484-9e08-04adf8472200" />
-
-|  | Demographic Parity Difference | AUC | Accuracy |
-|----------|----------|----------|----------|
-| Baseline | 0.227   | 0.737  | 0.699 |
-| Fair Model | 0.122   | 0.738   | 0.653 |
-
+  
+  |  | Demographic Parity Difference | AUC | Accuracy |
+  |----------|----------|----------|----------|
+  | Baseline | 0.227   | 0.737  | 0.699 |
+  | Fair Model | 0.122   | 0.738   | 0.653 |
+</p>
 
 
 ## Conclusion
