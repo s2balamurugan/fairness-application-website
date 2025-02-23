@@ -88,11 +88,12 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
       </tr>
     </tbody>
   </table>
+</p>
 
-
+<p align="center">
 German Credit Scores Dataset Fairness Metrics
   <img width="634" alt="Screen Shot 2025-02-22 at 8 04 20 PM" src="https://github.com/user-attachments/assets/1ae6bbe7-7bdc-4a12-b15b-600ddec62bf5" />
-
+</p>
   
  <table>
   <thead>
@@ -120,10 +121,10 @@ German Credit Scores Dataset Fairness Metrics
 </table>
   
   
-  
+<p align="center">
   COMPAS Dataset Fairness Metrics
   <img width="635" alt="Screen Shot 2025-02-22 at 8 05 04 PM" src="https://github.com/user-attachments/assets/e4e39e4d-97a6-4484-9e08-04adf8472200" />
-
+</p>
   
  <table>
   <thead>
@@ -149,7 +150,6 @@ German Credit Scores Dataset Fairness Metrics
     </tr>
   </tbody>
 </table>
-</p>
 
 
 ## Conclusion
