@@ -24,11 +24,12 @@ Overall, this adversarial learning approach guarantees fair and accurate predict
 
 In the first graph below, X is the covariate, Y is the label, Z is the confounder, S is the proxy, taken from Parjanya’s Paper. The second graph is the adjusted node graph to represent our model which includes the sensitive feature. In this graph, X is the covariate, S is the sensitive feature, pseudo Y is the independent Y label of S, Y final is the final fair label predicted from S and pseudo Y. In both graphs, the shaded circles represent unobserved variables and the unshaded ones represent observed variables.
 
-<img width="275" alt="Screen Shot 2025-02-22 at 7 18 59 PM" src="https://github.com/user-attachments/assets/344772f7-1470-4cfb-83a4-91b86c1e3eb2" />
-
-
-<img width="222" alt="Screen Shot 2025-02-22 at 7 19 13 PM" src="https://github.com/user-attachments/assets/5affc066-56ab-447c-8252-90a3f2b3370e" />
-
+<p align="center">
+  <img width="275" alt="Screen Shot 2025-02-22 at 7 18 59 PM" src="https://github.com/user-attachments/assets/344772f7-1470-4cfb-83a4-91b86c1e3eb2" />
+  
+  
+  <img width="222" alt="Screen Shot 2025-02-22 at 7 19 13 PM" src="https://github.com/user-attachments/assets/5affc066-56ab-447c-8252-90a3f2b3370e" />
+</p>
 
 ### Datasets Implemented 
 We implemented three datasets, UCI Adult, German Credit and COMPAS dataset. 
@@ -52,8 +53,7 @@ In the future we will focus on enhancing the model’s adaptability to more comp
 ## Refrences
 Choi, YooJung, Meihua Dang, and Guy Van den Broeck. 2020. “Group Fairness by Probabilistic Modeling with Latent Fair Decisions.” https://arxiv.org/abs/2009.09031 
 
-Prashant, Parjanya, Seyedeh Baharan Khatami, Bruno Ribeiro, and Babak Salimi.2024. “Scalable Out-of-distribution Robustness in the Presence of Unobserved Con-
-founders.” https://arxiv.org/abs/2411.19923 
+Prashant, Parjanya, Seyedeh Baharan Khatami, Bruno Ribeiro, and Babak Salimi.2024. “Scalable Out-of-distribution Robustness in the Presence of Unobserved Con-founders.” https://arxiv.org/abs/2411.19923 
 
 
 
