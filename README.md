@@ -49,6 +49,13 @@ UCI Adults Dataset Fairness Metrics
 | Fair Model | 0.071   | 0.798   | 0.798 |
 
 
+German Credit Scores Dataset Fairness Metrics
+|  | Demographic Parity Difference | AUC | Accuracy |
+|----------|----------|----------|----------|
+| Baseline | 0.046   | 0.663  | 0.72 |
+| Fair Model | 0.026   | 0.524   | 0.71 |
+
+
 
 ## Conclusion
 Our work focuses on developing a fairness-aware algorithm that discovers latent variables to mitigate biases in predictive models. By leveraging an encoder-decoder framework with adversarial biasing, we ensure that sensitive attributes do not unfairly influence predictions while preserving meaningful patterns in the data. Our approach is evaluated on well-established fairness datasets, demonstrating its ability to produce fair and unbiased labels. As data-driven decision-making continues to shape critical domains like healthcare and criminal justice, our method provides a robust solution for addressing structural biases and enhancing the trustworthiness of AI systems.
