@@ -2,7 +2,7 @@
 This project is by Lina Batikkha and Sai Poornasree Balamurugan
 
 ## Introduction
-Bias in machine learning models is an issue, especially in areas like incarceration, where decisions can affect an individual’s life. Incarceration data has been shaped by inequalities due to race and socioeconomic states. This results in biased outcomes in predictive models. Addressing this challenge is not just a technical task but a necessity. We aim to incorporate latent variables representing fair decisions to mitigate these biases. We hope to create models that are not only fair but also more interpretable and robust
+Bias in artificial intelligence is a serious issue, particularly for minority groups, as models can unintentionally learn unfair patterns from sensitive features like gender or race. This project focuses on latent variable discovery to mitigate such biases by identifying hidden, unbiased outcome labels that are not influenced by sensitive attributes. The importance of latent variables extends to clustering, distribution shift, and fairness, with our work specifically targeting fairness in tabular datasets. By analyzing patterns among observed features, we aim to promote fair decision-making by ensuring that sensitive attributes do not lead to biased outcomes.
 
 Latent variable modeling involves the identification and characterization of hidden variables that influence the distribution and outcomes of observed data. These variables are not explicitly provided in the dataset but can be inferred by analyzing patterns and relationships among the observed features. By uncovering latent variables, researchers gain insights into underlying structures and dependencies within the data, enabling more accurate modeling, improved predictions, and a deeper understanding of complex systems.
 
@@ -22,7 +22,7 @@ The model optimizes three loss functions:
 
 Overall, this adversarial learning approach guarantees fair and accurate predictions by systematically removing biased dependencies while retaining necessary information.
 
-In the left graph below, X is the covariate, Y is the label, Z is the confounder, S is the proxy, taken from Parjanya’s Paper. The right graph is the adjusted node graph to represent our model which includes the sensitive feature. In this graph, X is the covariate, S is the sensitive feature, pseudo Y is the independent Y label of S, Y final is the final fair label predicted from S and pseudo Y. In both graphs, the shaded circles represent unobserved variables and the unshaded ones represent observed variables.
+In the first graph below, X is the covariate, Y is the label, Z is the confounder, S is the proxy, taken from Parjanya’s Paper. The second graph is the adjusted node graph to represent our model which includes the sensitive feature. In this graph, X is the covariate, S is the sensitive feature, pseudo Y is the independent Y label of S, Y final is the final fair label predicted from S and pseudo Y. In both graphs, the shaded circles represent unobserved variables and the unshaded ones represent observed variables.
 
 <img width="275" alt="Screen Shot 2025-02-22 at 7 18 59 PM" src="https://github.com/user-attachments/assets/344772f7-1470-4cfb-83a4-91b86c1e3eb2" />
 
