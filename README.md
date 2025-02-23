@@ -51,7 +51,7 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
   table {
     border-collapse: collapse;
     width: auto;
-    margin: 0 auto;
+    margin: auto;
   }
   th, td {
     border: 1px solid #ddd;
