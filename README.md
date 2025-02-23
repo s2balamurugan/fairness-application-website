@@ -42,16 +42,11 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
 
 ## Results
 
-<p align="center">
-  UCI Adults Dataset Fairness Metrics
-  <img width="635" alt="Screen Shot 2025-02-22 at 8 03 37 PM" src="https://github.com/user-attachments/assets/dc47f4ec-bd4c-45a4-bdfc-225b7f00720c" />
-</p>
-
 <style>
   table {
     border-collapse: collapse;
     width: auto;
-    margin: auto;
+    /* margin: auto; is no longer needed since the div will center the table */
   }
   th, td {
     border: 1px solid #ddd;
@@ -63,8 +58,13 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
   }
 </style>
 
-<center>
-  <table>
+<p align="center">
+  UCI Adults Dataset Fairness Metrics
+  <img width="635" alt="Screen Shot 2025-02-22 at 8 03 37 PM" src="https://github.com/user-attachments/assets/dc47f4ec-bd4c-45a4-bdfc-225b7f00720c" />
+</p>
+
+<div style="text-align: center;">
+  <table style="display: inline-table;">
     <thead>
       <tr>
         <th>Model</th>
@@ -88,7 +88,8 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
       </tr>
     </tbody>
   </table>
-</center>
+</div>
+
 
 <p align="center">
 German Credit Scores Dataset Fairness Metrics
@@ -96,30 +97,30 @@ German Credit Scores Dataset Fairness Metrics
 </p>
   
  <center>
- <table>
-  <thead>
-    <tr>
-      <th>Model</th>
-      <th>Demographic Parity Difference</th>
-      <th>AUC</th>
-      <th>Accuracy</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Baseline</td>
-      <td>0.046</td>
-      <td>0.663</td>
-      <td>0.72</td>
-    </tr>
-    <tr>
-      <td>Fair Model</td>
-      <td>0.026</td>
-      <td>0.524</td>
-      <td>0.71</td>
-    </tr>
-  </tbody>
-</table>
+   <table>
+    <thead>
+      <tr>
+        <th>Model</th>
+        <th>Demographic Parity Difference</th>
+        <th>AUC</th>
+        <th>Accuracy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Baseline</td>
+        <td>0.046</td>
+        <td>0.663</td>
+        <td>0.72</td>
+      </tr>
+      <tr>
+        <td>Fair Model</td>
+        <td>0.026</td>
+        <td>0.524</td>
+        <td>0.71</td>
+      </tr>
+    </tbody>
+  </table>
  </center>
   
 <p align="center">
@@ -128,30 +129,30 @@ German Credit Scores Dataset Fairness Metrics
 </p>
   
  <center>
- <table>
-  <thead>
-    <tr>
-      <th>Model</th>
-      <th>Demographic Parity Difference</th>
-      <th>AUC</th>
-      <th>Accuracy</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Baseline</td>
-      <td>0.227</td>
-      <td>0.737</td>
-      <td>0.699</td>
-    </tr>
-    <tr>
-      <td>Fair Model</td>
-      <td>0.122</td>
-      <td>0.738</td>
-      <td>0.653</td>
-    </tr>
-  </tbody>
-</table>
+   <table>
+    <thead>
+      <tr>
+        <th>Model</th>
+        <th>Demographic Parity Difference</th>
+        <th>AUC</th>
+        <th>Accuracy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Baseline</td>
+        <td>0.227</td>
+        <td>0.737</td>
+        <td>0.699</td>
+      </tr>
+      <tr>
+        <td>Fair Model</td>
+        <td>0.122</td>
+        <td>0.738</td>
+        <td>0.653</td>
+      </tr>
+    </tbody>
+  </table>
  </center>
 
 ## Conclusion
