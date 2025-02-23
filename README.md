@@ -46,14 +46,46 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
   UCI Adults Dataset Fairness Metrics
   <img width="635" alt="Screen Shot 2025-02-22 at 8 03 37 PM" src="https://github.com/user-attachments/assets/dc47f4ec-bd4c-45a4-bdfc-225b7f00720c" />
   
-| Model      | Demographic Parity Difference | AUC   | Accuracy |
-|------------|-------------------------------|-------|----------|
-| Baseline   | 0.0764                        | 0.806 | 0.788    |
-| Fair Model | 0.071                         | 0.798 | 0.798    |
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+</style>
 
-  
-  
-  
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th>Demographic Parity Difference</th>
+      <th>AUC</th>
+      <th>Accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Baseline</td>
+      <td>0.0764</td>
+      <td>0.806</td>
+      <td>0.788</td>
+    </tr>
+    <tr>
+      <td>Fair Model</td>
+      <td>0.071</td>
+      <td>0.798</td>
+      <td>0.798</td>
+    </tr>
+  </tbody>
+</table>
+
   German Credit Scores Dataset Fairness Metrics
   <img width="634" alt="Screen Shot 2025-02-22 at 8 04 20 PM" src="https://github.com/user-attachments/assets/1ae6bbe7-7bdc-4a12-b15b-600ddec62bf5" />
 
