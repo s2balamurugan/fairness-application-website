@@ -24,8 +24,7 @@ Overall, this adversarial learning approach guarantees fair and accurate predict
 
 In the left graph below, X is the covariate, Y is the label, Z is the confounder, S is the proxy, taken from Parjanya’s Paper. The right graph is the adjusted node graph to represent our model which includes the sensitive feature. In this graph, X is the covariate, S is the sensitive feature, pseudo Y is the independent Y label of S, Y final is the final fair label predicted from S and pseudo Y. In both graphs, the shaded circles represent unobserved variables and the unshaded ones represent observed variables.
 
-<img width="195" alt="Screen Shot 2025-02-22 at 12 36 38 PM" src="https://github.com/user-attachments/assets/689d4adc-11ef-413c-a99f-008e6a58f28b" />
-
+<img width="592" alt="Screen Shot 2025-02-22 at 7 14 36 PM" src="https://github.com/user-attachments/assets/10df56e6-a51a-4c70-966f-178d739fd998" />
 
 
 
