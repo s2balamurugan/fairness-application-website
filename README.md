@@ -43,6 +43,7 @@ The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reof
 ## Results
 
 UCI Adults Dataset Fairness Metrics
+
 |  | Demographic Parity Difference | AUC | Accuracy |
 |----------|----------|----------|----------|
 | Baseline | 0.0764   | 0.806  | 0.788 |
@@ -50,6 +51,7 @@ UCI Adults Dataset Fairness Metrics
 
 
 German Credit Scores Dataset Fairness Metrics
+
 |  | Demographic Parity Difference | AUC | Accuracy |
 |----------|----------|----------|----------|
 | Baseline | 0.046   | 0.663  | 0.72 |
@@ -57,6 +59,7 @@ German Credit Scores Dataset Fairness Metrics
 
 
 COMPAS Dataset Fairness Metrics
+
 |  | Demographic Parity Difference | AUC | Accuracy |
 |----------|----------|----------|----------|
 | Baseline | 0.227   | 0.737  | 0.699 |
