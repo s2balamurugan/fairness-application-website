@@ -96,7 +96,7 @@ German Credit Scores Dataset Fairness Metrics
   <img width="634" alt="Screen Shot 2025-02-22 at 8 04 20 PM" src="https://github.com/user-attachments/assets/1ae6bbe7-7bdc-4a12-b15b-600ddec62bf5" />
 </p>
   
- <center>
+<div style="text-align: center;">
    <table>
     <thead>
       <tr>
@@ -121,14 +121,14 @@ German Credit Scores Dataset Fairness Metrics
       </tr>
     </tbody>
   </table>
- </center>
+ </div>
   
 <p align="center">
   COMPAS Dataset Fairness Metrics
   <img width="635" alt="Screen Shot 2025-02-22 at 8 05 04 PM" src="https://github.com/user-attachments/assets/e4e39e4d-97a6-4484-9e08-04adf8472200" />
 </p>
   
- <center>
+<div style="text-align: center;">
    <table>
     <thead>
       <tr>
@@ -153,7 +153,7 @@ German Credit Scores Dataset Fairness Metrics
       </tr>
     </tbody>
   </table>
- </center>
+ </div>
 
 ## Conclusion
 Our work focuses on developing a fairness-aware algorithm that discovers latent variables to mitigate biases in predictive models. By leveraging an encoder-decoder framework with adversarial biasing, we ensure that sensitive attributes do not unfairly influence predictions while preserving meaningful patterns in the data. Our approach is evaluated on well-established fairness datasets, demonstrating its ability to produce fair and unbiased labels. As data-driven decision-making continues to shape critical domains like healthcare and criminal justice, our method provides a robust solution for addressing structural biases and enhancing the trustworthiness of AI systems.
