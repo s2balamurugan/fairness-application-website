@@ -56,6 +56,13 @@ German Credit Scores Dataset Fairness Metrics
 | Fair Model | 0.026   | 0.524   | 0.71 |
 
 
+COMPAS Dataset Fairness Metrics
+|  | Demographic Parity Difference | AUC | Accuracy |
+|----------|----------|----------|----------|
+| Baseline | 0.227   | 0.737  | 0.699 |
+| Fair Model | 0.122   | 0.738   | 0.653 |
+
+
 
 ## Conclusion
 Our work focuses on developing a fairness-aware algorithm that discovers latent variables to mitigate biases in predictive models. By leveraging an encoder-decoder framework with adversarial biasing, we ensure that sensitive attributes do not unfairly influence predictions while preserving meaningful patterns in the data. Our approach is evaluated on well-established fairness datasets, demonstrating its ability to produce fair and unbiased labels. As data-driven decision-making continues to shape critical domains like healthcare and criminal justice, our method provides a robust solution for addressing structural biases and enhancing the trustworthiness of AI systems.
