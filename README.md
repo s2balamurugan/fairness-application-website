@@ -41,10 +41,12 @@ The German Credit dataset is provided by the UCI Machine Learning Repository, it
 The COMPAS dataset is collected by ProPublica, it predicts recidivism risk (reoffending probability) using features such as age, sex, race, past crimes, and COMPAS risk scores. Research has shown racial disparities in risk assessment, making it central to discussions on algorithmic fairness and bias in the criminal justice system.
 
 ## Results
-| Column 1 | Demographic Parity Difference | Column 3 |
-|----------|----------|----------|
-| Baseline | Data 2   | Data 3   |
-| Fair Model | Data 5   | Data 6   |
+
+UCI Adults Dataset Fairness Metrics
+|  | Demographic Parity Difference | AUC | Accuracy |
+|----------|----------|----------|----------|
+| Baseline | 0.0764   | 0.806  | 0.788 |
+| Fair Model | 0.071   | 0.798   | 0.798 |
 
 
 
