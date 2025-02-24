@@ -1,5 +1,5 @@
 # Exploration and Applications of Fairness Algorithms
-This project is by Lina Batikkha and Sai Poornasree Balamurugan
+This project is by Lina Batikkha and Sai Poornasree Balamurugan, mentored by Babak Salimi
 
 ## Introduction
 Bias in artificial intelligence is a serious issue, particularly for minority groups, as models can unintentionally learn unfair patterns from sensitive features like gender or race. This project focuses on latent variable discovery to mitigate such biases by identifying hidden, unbiased outcome labels that are not influenced by sensitive attributes. The importance of latent variables extends to clustering, distribution shift, and fairness, with our work specifically targeting fairness in tabular datasets. By analyzing patterns among observed features, we aim to promote fair decision-making by ensuring that sensitive attributes do not lead to biased outcomes.
@@ -22,7 +22,7 @@ The model optimizes three loss functions:
 
 Overall, this adversarial learning approach guarantees fair and accurate predictions by systematically removing biased dependencies while retaining necessary information.
 
-In the first graph below, X is the covariate, Y is the label, Z is the confounder, S is the proxy, taken from the paper, “Scalable Out-of-distribution Robustness in the Presence of Unobserved Con-founders.” ([Paper Link](https://arxiv.org/abs/2411.19923)) The second graph is the adjusted node graph to represent our model which includes the sensitive feature. In this graph, X is the covariate, S is the sensitive feature, pseudo Y is the independent Y label of S, Y final is the final fair label predicted from S and pseudo Y. In both graphs, the shaded circles represent unobserved variables and the unshaded ones represent observed variables.
+In the first graph below, X is the covariate, Y is the label, Z is the confounder, S is the proxy, taken from the paper, ([“Scalable Out-of-distribution Robustness in the Presence of Unobserved Con-founders.”] (https://arxiv.org/abs/2411.19923)) The second graph is the adjusted node graph to represent our model which includes the sensitive feature. In this graph, X is the covariate, S is the sensitive feature, pseudo Y is the independent Y label of S, Y final is the final fair label predicted from S and pseudo Y. In both graphs, the shaded circles represent unobserved variables and the unshaded ones represent observed variables.
 
 <p align="center">
   <img width="275" alt="Screen Shot 2025-02-22 at 7 18 59 PM" src="https://github.com/user-attachments/assets/344772f7-1470-4cfb-83a4-91b86c1e3eb2" />
