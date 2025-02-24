@@ -97,7 +97,7 @@ German Credit Scores Dataset Fairness Metrics
 </p>
   
 <div style="text-align: center;">
-   <table>
+  <table style="display: inline-table;">
     <thead>
       <tr>
         <th>Model</th>
@@ -129,7 +129,7 @@ German Credit Scores Dataset Fairness Metrics
 </p>
   
 <div style="text-align: center;">
-   <table>
+  <table style="display: inline-table;">
     <thead>
       <tr>
         <th>Model</th>
