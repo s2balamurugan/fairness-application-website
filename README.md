@@ -155,6 +155,44 @@ German Credit Scores Dataset Fairness Metrics
   </table>
  </div>
 
+<p align="center">
+  Synthetic Dataset Fairness Metrics
+  <img width="913" alt="Screen Shot 2025-02-23 at 4 23 09 PM" src="https://github.com/user-attachments/assets/a87a3dc1-8637-43a5-a957-448201ac6817" />
+</p>
+  
+<div style="text-align: center;">
+  <table style="display: inline-table;">
+    <thead>
+      <tr>
+        <th>Model</th>
+        <th>Demographic Parity Difference</th>
+        <th>AUC</th>
+        <th>Accuracy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Baseline (Fair)</td>
+        <td>0.015</td>
+        <td>0.999</td>
+        <td>0.99</td>
+      </tr>
+      <tr>
+        <td>Baseline (Biased)</td>
+        <td>0.30</td>
+        <td>0.8488</td>
+        <td>0.778</td>
+      </tr>
+      <tr>
+        <td>Fair Model</td>
+        <td>0.0386</td>
+        <td>0.983</td>
+        <td>0.92</td>
+      </tr>
+    </tbody>
+  </table>
+ </div>
+
 ## Conclusion
 Our work focuses on developing a fairness-aware algorithm that discovers latent variables to mitigate biases in predictive models. By leveraging an encoder-decoder framework with adversarial biasing, we ensure that sensitive attributes do not unfairly influence predictions while preserving meaningful patterns in the data. Our approach is evaluated on well-established fairness datasets, demonstrating its ability to produce fair and unbiased labels. As data-driven decision-making continues to shape critical domains like healthcare and criminal justice, our method provides a robust solution for addressing structural biases and enhancing the trustworthiness of AI systems.
 
