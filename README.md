@@ -22,7 +22,7 @@ The model optimizes three loss functions:
 
 Overall, this adversarial learning approach guarantees fair and accurate predictions by systematically removing biased dependencies while retaining necessary information.
 
-In the first graph below, X is the covariate, Y is the label, Z is the confounder, S is the proxy, taken from Parjanya’s Paper. The second graph is the adjusted node graph to represent our model which includes the sensitive feature. In this graph, X is the covariate, S is the sensitive feature, pseudo Y is the independent Y label of S, Y final is the final fair label predicted from S and pseudo Y. In both graphs, the shaded circles represent unobserved variables and the unshaded ones represent observed variables.
+In the first graph below, X is the covariate, Y is the label, Z is the confounder, S is the proxy, taken from the paper, “Scalable Out-of-distribution Robustness in the Presence of Unobserved Con-founders.” ([Link Text](https://arxiv.org/abs/2411.19923)) The second graph is the adjusted node graph to represent our model which includes the sensitive feature. In this graph, X is the covariate, S is the sensitive feature, pseudo Y is the independent Y label of S, Y final is the final fair label predicted from S and pseudo Y. In both graphs, the shaded circles represent unobserved variables and the unshaded ones represent observed variables.
 
 <p align="center">
   <img width="275" alt="Screen Shot 2025-02-22 at 7 18 59 PM" src="https://github.com/user-attachments/assets/344772f7-1470-4cfb-83a4-91b86c1e3eb2" />
@@ -161,9 +161,9 @@ Our work focuses on developing a fairness-aware algorithm that discovers latent 
 In the future we will focus on enhancing the model’s adaptability to more complex scenarios. This includes improving its performance when the sensitive feature is non-binary, ensuring it remains effective across diverse demographic groups. Additionally, we aim to extend the model’s capability to handle multi-class observed labels, making it applicable to a broader range of classification tasks. Finally, we will establish clear guidelines for determining when to prioritize accuracy over independence and vice versa, helping users make informed decisions based on their specific fairness and performance requirements.
 
 ## Refrences
-Choi, YooJung, Meihua Dang, and Guy Van den Broeck. 2020. “Group Fairness by Probabilistic Modeling with Latent Fair Decisions.” https://arxiv.org/abs/2009.09031 
+Choi, YooJung, Meihua Dang, and Guy Van den Broeck. 2020. “Group Fairness by Probabilistic Modeling with Latent Fair Decisions.” [Link Text](https://arxiv.org/abs/2009.09031)
 
-Prashant, Parjanya, Seyedeh Baharan Khatami, Bruno Ribeiro, and Babak Salimi.2024. “Scalable Out-of-distribution Robustness in the Presence of Unobserved Con-founders.” https://arxiv.org/abs/2411.19923 
+Prashant, Parjanya, Seyedeh Baharan Khatami, Bruno Ribeiro, and Babak Salimi.2024. “Scalable Out-of-distribution Robustness in the Presence of Unobserved Con-founders.” [Link Text](https://arxiv.org/abs/2411.19923)
 
 
 
