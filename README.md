@@ -28,8 +28,10 @@ In the first graph below, X is the covariate, Y is the label, Z is the confounde
   <img width="275" alt="Screen Shot 2025-02-22 at 7 18 59 PM" src="https://github.com/user-attachments/assets/344772f7-1470-4cfb-83a4-91b86c1e3eb2" />
   
   
-  <img width="222" alt="Screen Shot 2025-02-22 at 7 19 13 PM" src="https://github.com/user-attachments/assets/5affc066-56ab-447c-8252-90a3f2b3370e" />
+  <img width="262" alt="graph2" src="https://github.com/user-attachments/assets/3bb8ac09-2c2d-4f29-8dea-2a90e66a5289" />
 </p>
+
+
 
 ### Datasets Implemented 
 We implemented three datasets, UCI Adult, German Credit and COMPAS dataset. 
